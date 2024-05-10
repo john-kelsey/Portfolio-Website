@@ -1,0 +1,10 @@
+{
+  "name": "John Kelsey",
+  "title": "Student",
+  "description": "Aspiring Developer",
+  "contact_email": "johnkelsey.irungu@gmail.com",
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/in/john-irungu-k2009",
+    "github": "https://github.com/john-kelsey"
+  }
+}
