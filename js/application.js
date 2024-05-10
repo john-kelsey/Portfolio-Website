@@ -4441,7 +4441,7 @@ var Util = function(t) {
     }
       , f = function() {
         console.info(),
-        console.info("\nDesigned and Developed By John Kelsey.\n "Check my GitHub Profile www.github.com/john-kelsey/"),
+        console.info("\nDesigned and Developed By John Kelsey.\n Check my GitHub Profile www.github.com/john-kelsey/"),
         console.info("👮🏿🚨👮🏿🚨 WEEWOO WEEWOO 👮🏿🚨👮🏿 IT'S THE 💾 RICCARDOZANUTTA.COM POLICE HERE 👌🏿 just tryn' to make SURE 👀 EVERYTHING IS 🛡💯💯 SAFE 😔💦💦 PLEASE ENJOY 🕋💥 OR JAVASCRIPT WILL ⚰️✈️🏙 SOCC YOU 😩🔥👌🏿💦💦")
     }
       , p = function() {
