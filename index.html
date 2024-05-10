@@ -185,6 +185,7 @@
       <meta itemprop="image" content="http://riccardozanutta.com/img/social-image.jpg">
    </head>
    <body itemscope itemtype="http://schema.org/WebPage">
+      <canvas id="threejs-canvas"></canvas>
       <div id="loader">
          <div class="loader-content">
             <div class="stripe-loader">
@@ -1659,8 +1660,22 @@
          )(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
          ga('create', 'UA-62939051-2', 'auto');
          ga('send', 'pageview');
+      <script src="three.r134.min.js">
       </script>
-      <script src="js/application.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="vanta.birds.min.js">
+      </script>
+      <script>
+        VANTA.BIRDS({
+          el: "threejs-canvas",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00
+        })
+      </script>
+      
    </body>
 </html>
